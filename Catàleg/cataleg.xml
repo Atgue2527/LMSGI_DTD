@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cataleg SYSTEM "cataleg.dtd">
+<cataleg>
+    <llista_actors>
+        <actor id="A1">
+            <nom>Anne Hathaway</nom>
+            <edat>43</edat>
+        </actor>
+        <actor id="A2">
+            <nom>Robert Pattinson</nom>
+        </actor>
+        <actor id="A3">
+            <nom>Stanley Tucci</nom>
+        </actor>
+    </llista_actors>
+    <llista_pelicules>
+        <pelicula id="P1">
+            <titol idioma="en">Devil Wears Prada</titol>
+            <director>David Frankel</director>
+            <any>2006</any>
+            <actors>
+                <actor_ref ref="A1"/>
+                <actor_ref ref="A3"/>
+            </actors>
+        </pelicula>
+    </llista_pelicules>
+    <llista_recomanacions_pelicules>
+        <recomanacio ref="P1"/>
+    </llista_recomanacions_pelicules>
+</cataleg>
