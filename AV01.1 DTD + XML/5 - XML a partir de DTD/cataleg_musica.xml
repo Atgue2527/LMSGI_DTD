@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cataleg_musica SYSTEM "cataleg_musica.dtd">
+
+<cataleg_musica>
+    <llista_artistes>
+        <artista id='A1'>
+            <nom>Milo J</nom>
+            <pais>Argentina</pais>
+            <genere>Trap</genere>
+        </artista>
+        <artista id='A2'>
+            <nom>Caramelos de Cianuro</nom>
+            <pais>Venezuela</pais>
+            <genere>Rock</genere>
+        </artista>
+        <artista id='A3'>
+            <nom>Samuraï</nom>
+            <genere>Rock</genere>
+        </artista>
+    </llista_artistes>
+    <llista_albumes>
+        <album id='B1'>
+            <titol>La Vida era más Corta</titol>
+            <any>2025</any>
+            <artistes>
+                <artista_ref ref='A1'/>
+            </artistes>
+        </album>
+        <album id='B2'>
+            <titol>8</titol>
+            <any>2015</any>
+            <artistes>
+                <artista_ref ref='A2'/>
+            </artistes>
+        </album>
+        <album id='B3'>
+            <titol>El Silencio del Ruido</titol>
+            <any>2024</any>
+            <artistes>
+                <artista_ref ref='A3'/>
+            </artistes>
+        </album>
+    </llista_albumes>
+    <llista_recomanacions_albumes>
+        <recomanacio ref='B1'/>
+    </llista_recomanacions_albumes>
+</cataleg_musica>

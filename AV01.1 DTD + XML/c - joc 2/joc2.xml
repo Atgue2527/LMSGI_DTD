@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE joc SYSTEM "joc2.dtd">
+
+<joc>
+    <titol>Jak and Daxter: The Precursor Legacy</titol>
+    <companyia>Naughty Dog</companyia>
+    <plataforma>PlayStation</plataforma>
+    <anyLlançament>2001</anyLlançament>
+    <personatges>
+        <personatge tipus='heroi'>
+            <nomp>Jak</nomp>
+        </personatge>
+        <personatge tipus='company'>
+            <nomp>Daxter</nomp>
+        </personatge>
+        <personatge tipus='mentora'>
+            <nomp>Samos</nomp>
+        </personatge>
+    </personatges>
+    <nivells>
+        <nivell dificultat='baixa'>
+            <nomn>Geyser Rock</nomn>
+        </nivell>
+        <nivell dificultat='mitjana'>
+            <nomn>Sandover Village</nomn>
+        </nivell>
+        <nivell dificultat='alta'>
+            <nomn>Gol and Maia's Citadel</nomn>
+        </nivell>
+    </nivells>
+</joc>
